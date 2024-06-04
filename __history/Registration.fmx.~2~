@@ -1,0 +1,568 @@
+object RegistrationForm: TRegistrationForm
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'Registartion'
+  ClientHeight = 528
+  ClientWidth = 742
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object backgroundImage: TImage
+    MultiResBitmap.Height = 2438
+    MultiResBitmap.Width = 4000
+    MultiResBitmap.LoadSize = 2
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 742.000000000000000000
+    Size.Height = 528.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle1: TRectangle
+      Align = Top
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Top = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 742.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+      object Label1: TLabel
+        Align = HorzCenter
+        StyledSettings = [Family, Style]
+        Position.X = 297.000000000000000000
+        Size.Width = 147.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'User Registration'
+        TabOrder = 0
+      end
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 120.000000000000000000
+      Position.X = 97.000000000000000000
+      Position.Y = 87.000000000000000000
+      Size.Width = 217.000000000000000000
+      Size.Height = 379.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+      object Label2: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Position.Y = 6.000000000000000000
+        Size.Width = 217.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Compulsory Information'
+        TabOrder = 0
+      end
+      object Label3: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Name'
+        TabOrder = 4
+      end
+      object Label4: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 124.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Surname'
+        TabOrder = 2
+      end
+      object Line1: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 74.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtname: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 15
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Margins.Left = 10.000000000000000000
+          Size.Width = 167.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Enter Name'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Line2: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 150.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtsurname: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          MaxLength = 15
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Margins.Left = 10.000000000000000000
+          Size.Width = 167.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Enter Surname'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Label6: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 205.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Contact Number'
+        TabOrder = 3
+      end
+      object Label7: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 280.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'ID Number'
+        TabOrder = 1
+      end
+      object Line3: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 230.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtnumber: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 10
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Margins.Left = 10.000000000000000000
+          Size.Width = 167.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Starts with 0'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Line4: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 301.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtidnumber: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 13
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Margins.Left = 10.000000000000000000
+          Size.Width = 167.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Enter 13 Digit ID Number'
+          StyledSettings = [Family, Style]
+        end
+      end
+    end
+    object btnsave: TRoundRect
+      Enabled = False
+      Fill.Color = xFF1683C6
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 102.000000000000000000
+      Position.Y = 486.000000000000000000
+      Size.Width = 159.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = btnsaveClick
+      object Label8: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 65.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'SAVE LOGIN DETAILS'
+        TabOrder = 0
+      end
+    end
+    object Rectangle3: TRectangle
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 120.000000000000000000
+      Position.X = 336.000000000000000000
+      Position.Y = 90.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 218.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+      object Label5: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Position.Y = 14.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Extra Information'
+        TabOrder = 0
+      end
+      object Label10: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 54.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Set up a login code that can also act'
+        TabOrder = 2
+      end
+      object Label11: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 99.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Maximum 10 Digits.'
+        TabOrder = 4
+      end
+      object Label12: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 145.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Code'
+        TabOrder = 1
+      end
+      object Line8: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 169.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtcode: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 10
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Margins.Left = 10.000000000000000000
+          Size.Width = 255.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Enter code'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Label9: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 75.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'as your password as a backup.'
+        TabOrder = 3
+      end
+    end
+    object RoundRect1: TRoundRect
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 336.000000000000000000
+      Position.Y = 380.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label13: TLabel
+        Align = Left
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 50.000000000000000000
+        Position.X = 50.000000000000000000
+        Size.Width = 56.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        Text = 'Username'
+        TabOrder = 1
+      end
+      object lblusername: TLabel
+        Align = Right
+        StyledSettings = [Family, Size, Style]
+        Margins.Right = 50.000000000000000000
+        Position.X = 146.000000000000000000
+        Size.Width = 109.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Trailing
+        Text = 'generate_username'
+        TabOrder = 0
+      end
+    end
+    object RoundRect3: TRoundRect
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 336.000000000000000000
+      Position.Y = 428.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label14: TLabel
+        Align = Left
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 50.000000000000000000
+        Position.X = 50.000000000000000000
+        Size.Width = 54.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        Text = 'Password'
+        TabOrder = 1
+      end
+      object lblpassword: TLabel
+        Align = Right
+        StyledSettings = [Family, Size, Style]
+        Margins.Right = 50.000000000000000000
+        Position.X = 148.000000000000000000
+        Size.Width = 107.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Trailing
+        Text = 'generate_password'
+        TabOrder = 0
+      end
+    end
+    object Label16: TLabel
+      StyledSettings = [Family, Style]
+      Margins.Left = 20.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 360.000000000000000000
+      Position.Y = 339.000000000000000000
+      Size.Width = 247.000000000000000000
+      Size.Height = 39.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      Text = 'These Details will be used to login'
+      TabOrder = 5
+    end
+    object SaveDialog1: TSaveDialog
+      DefaultExt = '.txt'
+      FileName = 'Login_Details'
+      Filter = 'Text files(*.txt)|*.txt'
+      Left = 607
+      Top = 336
+    end
+    object memlogind: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Lines.Strings = (
+        'Login Details:')
+      Position.X = 565.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 153.000000000000000000
+      Size.Height = 122.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Visible = False
+      Left = 248
+      Top = 50
+      Viewport.Width = 149.000000000000000000
+      Viewport.Height = 118.000000000000000000
+    end
+    object btnClearText: TRoundRect
+      Fill.Color = xFF1683C6
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 299.000000000000000000
+      Position.Y = 486.000000000000000000
+      Size.Width = 159.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = btnClearTextClick
+      object Label15: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 47.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'CLEAR INFO'
+        TabOrder = 0
+      end
+      object btnClose: TRoundRect
+        Fill.Color = xFF1683C6
+        Margins.Left = 30.000000000000000000
+        Margins.Right = 30.000000000000000000
+        Position.X = 184.000000000000000000
+        Size.Width = 159.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        OnClick = btnCloseClick
+        object Label17: TLabel
+          Align = Center
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 47.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFFFEFDFD
+          TextSettings.HorzAlign = Center
+          Text = 'CLOSE'
+          TabOrder = 0
+        end
+      end
+    end
+    object btnregisteruser: TRoundRect
+      Fill.Color = xFF1683C6
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 344.000000000000000000
+      Position.Y = 310.000000000000000000
+      Size.Width = 289.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = btnregisteruserClick
+      object Label18: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 97.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'Register User'
+        TabOrder = 0
+      end
+    end
+  end
+end

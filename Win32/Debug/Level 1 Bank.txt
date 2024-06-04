@@ -1,0 +1,54 @@
+Assets can be classified into fixed and current assets.
+True
+A Statement of comprehensive income presents assets, liabilities and owners' equity on a specific date.
+False
+There are two broad categories of interested parties, or accounting information users: Internal and External users.
+True
+Accounting is a service- based profession that provides reliable and relevant financial information useful in making decisions.
+True
+The double- entry bookkeeping rule states that any transaction is recorded at least twice.
+False
+Net income is the excess of revenues over expenses for an accounting period.
+True
+VAT payable is a deductible expense for a VAT registered business.
+False
+The Statement of Cash Flows is a summary of the bank account from the beginning of the year to the end of the year.
+True
+Intangible Assets can also be classified as property, plant and equipment.
+False
+IFRS lays down the standards for the preparation of the financial statement throughout the world.
+True
+A cheque is stale when it is more than 6 months old.
+True
+The excess of sales over cost of sales is gross profit.
+False
+Sales discount increases sales revenue.
+True
+Money coming into the business. This amount does NOT have brackets. (e.g. sale of shares) is considered as Cash inflow.
+True
+Money going out of the business. This amount HAS brackets. (e.g. bought a fixed asset for cash) is considered as Cash outflow.
+True
+Money coming into the business. This amount does NOT have brackets. (e.g. sale of shares) is considered as Cash outflow.
+False
+Money going out of the business. This amount HAS brackets. (e.g. bought a fixed asset for cash) is considered as Cash inflow.
+False
+A non-VAT vendor that purchases an item can claim back input VAT.
+False
+Land is a depreciable asset.
+False
+The carrying amount of a fully depreciated vehicle is R2.
+False
+Temporary accounts are closed at the end of each period. These are mostly income statement accounts, except for a retained earnings account that is an equity statement account.
+True
+Intangible Assets can never be impaired.
+False
+A settlement discount is offered to businesses/ customers to allow them to take a longer time to settle their outstanding accounts.
+False
+You decide to purchase new equipment for your company. You would debit Fixed assets and credit Accounts payable.
+True
+The company collects R9000 from a client who received services 10 days earlier. The journal entry would be debit cash and credit accounts receivable.
+True
+The company incurs R1500 of advertising expense which is paid immediately. The journal entry would be debit cash and credit advertising expense.
+False
+XYZ Company purchased office supplies worth R800 on credit. The journal entry for this transaction would be Debit office supplies and Credit accounts payable.
+True

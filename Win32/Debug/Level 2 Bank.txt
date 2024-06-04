@@ -1,0 +1,450 @@
+What are resources owned by a business called?
+- Owner’s things
+- Liabilities
+- Assets
+- Toys
+C
+What are the factors that a business owes or needs to pay called?
+- Assets
+- Liabilities
+- Capital
+- Profit
+B
+What are individuals or organizations that owe amounts to a business known as?
+- Credit suppliers
+- Debtors
+- Creditors
+- Debit owners
+B
+What is another name for outstanding expenses?
+- Loans
+- Debit
+- Accruals
+- Credit
+C
+What is the initial investment by an owner of a sole trader (sole proprietorship) or partnership business called?
+- Capital
+- Asset
+- Drawing
+- Liability
+A
+What term is used for day-to-day dealings that involve the exchange of goods and services for cash?
+- Occasion
+- Bookkeeping
+- Business Transactions
+- Accounting
+C
+Which of the following is the accounting equation?
+- Equity = Assets + Liabilities
+- Assets = Equity - Liabilities
+- Assets = Equity + Liabilities
+- Liabilities = Equity + Assets
+C
+What is the most important feature of bookkeeping?
+- Recording songs
+- Finding out the profit
+- Recording transactions
+- Summarising the transactions
+C
+Which of these is the most important feature of bookkeeping?
+- Drinking lots of coffee
+- Recording transactions and financial activity
+- Interpreting the accounts and financial activity 
+- Noting down the debits and credits
+B
+Types of external users include:
+- Employees
+- Investors, Creditors and Lenders
+- Me
+- You
+B
+Adjustments to the accounting records are most likely to be made:
+- Whenever an error has been made 
+- At the beginning of every financial period 
+- On 31 December each year
+- Immediately prior to the preparation of the financial reports
+D
+All financial statements consist of classes or categories known as elements. Which of these is not an element?
+- Statement of Cash Flows
+- Assets
+- Liabilities
+- Equity
+A
+Which account is not a liability account?
+- Bank overdraft
+- Accrued expenses
+- Accounts payables
+- Cash on Hand 
+D
+Which of the following statements is incorrect:
+- Property, plant and equipment is depreciated.
+- Assets do not have to be owned to be controlled.
+- Going concern means the business will continue to trade in the foreseeable future.
+- A transaction is accounted according to its legal form rather than its commercial substance.
+D
+Inventory is recognised in the financial statements as a/an:
+- Intangible asset 
+- Current asset
+- Property, plant and equipment
+- Liability
+B
+When a purchases account appears in the ledger of a business, the business is using the:
+- Periodic Inventory System
+- Perpetual Inventory System
+- None
+- Both A and B
+A
+Value Added Tax (VAT) is a:
+- Tax collection system
+- Turnover tax
+- Consumption tax
+- SARS
+C
+The Statement of Cash Flows is categorized into:
+- Cash flow from operations, investing or financing activities.
+- Cash flow from external and internal operating activities.
+- Changes in Working Capital.
+- Income and Expenses.
+A
+On which side of the T-account would you process the journal entry of increasing an asset/expense?
+- Credit 
+- Debit
+- None
+- Both A and B
+B
+On which side of the T-account would you process the journal entry of increasing a liability?
+- Credit
+- Debit
+- None
+- Both A and B
+A
+Which of the following is true?
+- Accounts receivable are found in the current asset section of a balance sheet.
+- Accounts receivable increase by credits.
+- Accounts receivable are generated when a customer makes payments.
+- Accounts receivable become more valuable over time.
+A
+The owner bought a new vehicle for his wife as a birthday present and pays from the company bank account. What GAAP principle applies to this scenario?
+- Consistency
+- Historical Cost
+- Business entity
+- Materiality
+C
+Vehicles and equipment will be depreciated as they lose value because of wear and tear. What GAAP principle applies to this scenario?
+- Going concern
+- Prudence
+- Matching
+- Historical Cost
+B
+Which of the following is not a type of audit report/opinion?
+- Disclaimer 
+- Qualified
+- Unqualified 
+- Conventional
+D
+On which side of the T-account would you process the journal entry of decreasing an asset/expense?
+- Credit 
+- Debit
+- None
+- Both A and B
+A
+On which side of the T-account would you process the journal entry of decreasing a liability?
+- Credit
+- Debit
+- None
+- Both A and B
+B
+What is the liability created by a purchase on account?
+- Accounts payable
+- Accounts Receivable
+- Bank
+- Liability
+A
+What does GAAP mean?
+- Government Accepted Accounting Principles
+- Government Accounting for American Public 
+- General American Accounting Practices
+- Generally Accepted Accounting Principles 
+D
+What is Net loss?
+- Expenses exceed liabilities
+- Expenses exceed revenues
+- Revenues exceed expenses
+- None
+B
+Who owns a Partnership?
+- The state
+- One individual
+- Two or more individuals
+- The company
+C
+What is the area of accounting that provides internal users with information called?
+- Managerial accounting
+- Profit accounting  
+- Professional accounting
+- None 
+A
+When are amounts recorded under Cost concept?
+- Amounts are initially recorded.
+- Amounts are recorded at the end of the year.
+- Amounts are recorded every month.
+- Amounts are recorded daily.
+A
+What is the income statement showing?
+- Reports the amounts of assets, liabilities, and stockholders’ equity.
+- Reports the revenues and expenses for a period of time.
+- Reports the changes in the retained earnings for a period of time.
+- All options
+B
+What is the objective of most businesses?
+- Assets
+- Revenue
+- Profit
+- Equity 
+C
+Who owns a Proprietorship?
+- One individual
+- Two or more individuals
+- The state 
+- The company  
+A
+What should temporary accounts have at the beginning of the next period?
+- They should have zero balances.
+- They should have credit balance.
+- They should have debit balance.
+- They should have a positive balance.
+A
+What is the accounting process that begins with analysing and journalizing transactions and ends with the post-closing trial balance called? 
+- Closing process
+- Transfer process
+- Production cycle
+- Accounting cycle
+D
+What are the liabilities that are due within one year called?
+- Current liabilities
+- Non – current liabilities
+- Current expenses
+- None
+A
+What is solvency?
+- Ability to sell off shares.
+- Ability of a business to pay its debts.
+- Ability to convert assets into cash.
+- None
+B
+The stockholders’ equity section on the balance sheet consists of…
+- Expenses, revenues, and dividends
+- Property, plant, and equipment
+- Net income and capital stock
+- Capital stock and retained earnings
+D
+The temporary account balances are transferred to permanent accounts at the end of the accounting period. What are the entries that transfer these balances are called?
+- Ultimate entries
+- Final entries
+- Closing entries
+- Journal entries
+C
+In which financial statement is the dividends account recorded?
+- Income statement 
+- Retained earnings statement 
+- Balance sheet
+- Cash flow statement 
+B
+What is the formula for current ratio?
+- Current ratio = current assets – current liabilities
+- Current ratio = current assets * current liabilities
+- Current ratio = current assets/current liabilities
+- Current ratio = current assets + current liabilities
+C
+What is the formula for working capital?
+- Working capital = current assets/current liabilities
+- Working capital = current assets + current liabilities
+- Working capital = current assets - current liabilities
+- Working capital = current assets * current liabilities
+C
+When is the post- closing trial balance prepared?
+- After the balance sheet is prepared
+- Before the closing entries have been processed
+- Before the income statement is prepared
+- After the closing entries have been posted
+D
+What is the formula for the Ratio of Net Sales to Assets?
+- Net Sales/Average Total Assets
+- Sales/Average Total Assets
+- Average Total Assets/Net Sales
+- Sales/Current Assets
+A
+In which system does the inventory show the amount of merchandise available for sale and the amount sold?
+- Perpetual inventory system
+- Periodic inventory system
+- Both A and B
+- None
+A
+What is the purpose of petty cash fund?
+- For payment when receipts are not needed
+- For payments of small amounts
+- For payments of unexpected expenses
+- For payments of large amounts
+B
+What is analysed in a bank reconciliation ?
+- Difference between the balance according to a company’s statement, and a bank’s balance statement
+- Difference between the balance of different bank statements
+- Difference between current bank statement balance and prior period bank statement balance
+- Difference between the bank statement and income statement
+A
+Under which section of the balance sheet are Cash and cash equivalents recorded ?
+- Current assets
+- Current liabilities
+- Non-current assets
+- Stockholders’ equity 
+A
+What is an example of separating operations, custody of assets, and accounting?
+- An employee should be responsible for all the business financial aspects.
+- An employee handling cash receipts should not be responsible for recording the receipts in the accounting records.
+- An employee who receives cash should not also be responsible for paying cash.
+- An employee should ask his/her friend to help record the cash amounts.
+B
+What are acceptable reasons for a difference between a bank statement balance and the balance in the  company’s statement ?
+- Company books already contain accounts receivables that are due in a year.
+- Bank transaction appeared after the last bank statement was received.
+- Time lag between a check being written and it being paid by a bank.
+- Both B and C.
+D
+How do control procedures help a company?
+- They provide reasonable assurance that the company will have enough liquid funds.
+- They provide reasonable assurance that the company will be profitable.
+- They provide reasonable assurance that business goals will be achieved.
+- They provide reasonable assurance that there should be promotions between employees.
+C
+Where are accounts receivable reported on the balance sheet?
+- Current assets section
+- Current liabilities section
+- Shareholder’s equity section
+- Non-current liabilities section
+A
+Which of the following is an expense?
+- Discount received.
+- Bad debts recovered.
+- Discount allowed.
+- Rent income.
+C
+Which of the following is an income?
+- Trading stock surplus 
+- Fuel
+- Stationery
+- Depreciation
+A
+In the balance sheet what falls under fixed/tangible assets?
+- Trading stock
+- Consumable stores on hand
+- Bank
+- Equipment
+D
+What falls under the Trade and other receivables account?
+- Petty cash 
+- Cash float
+- Prepaid expenses
+- Vehicles
+C
+What falls under the Cash and cash equivalents account?
+- Debtor’s control
+- Trading stock
+- Land and buildings
+- Cash float 
+D
+Bank overdraft is classified as a
+- Non-current liability
+- Current asset
+- Shareholders’ equity
+- Current liability
+D
+Consumable stores on hand is classified as a 
+- Owner’s equity
+- Current asset
+- Expense 
+- Income
+B
+Which of the following options is NOT a liquidity financial indictor?
+- Current ratio
+- Earnings per share
+- Acid test ratio 
+- Debtors’ collection period
+B
+Which of the following options is NOT a profitability financial indicator?
+- Debt / equity ratio
+- % Gross profit on sales
+- % Net profit on sales
+- % Operating profit on sales 
+A
+Wages and salaries of those employees physically making the product or operating the machines that make the product. 
+- Variable cost
+- Factory overhead cost
+- Direct labour cost
+- Fixed cost 
+C
+Raw materials that have been issued to the factory and have been used to manufacture the finished goods. E.g., leather and rubber soles in the making of shoes.
+- Factory overhead cost
+- Direct/raw materials cost
+- Fixed cost
+- Variable cost
+B
+What makes up the Prime/Direct cost in manufacturing ?
+- Direct materials cost + Direct labour cost
+- Direct labour cost + Factory overhead cost
+- Direct materials cost + Direct labour cost + Factory overhead cost
+- Direct materials cost - Direct labour cost
+A
+What is a forecast of cash receipts and cash payments?
+- Projected income statement
+- Debtor’s collection schedule 
+- Cash budget
+- Credit’s collection schedule 
+C
+What is the simplest form of stock validation ?
+- FIFO
+- Weighted average
+- Specific identification method
+- Perpetual system 
+C
+Which of the following is NOT an Inventory valuation method?
+- Specific identification method
+- Work-in-progress
+- FIFO
+- Weighted average
+B
+An item on which no VAT is charged is called…
+- Zero-rated items
+- VAT input
+- VAT output
+- VAT-exempt items
+D
+VAT paid by a business on the purchases of goods and services (which can be claimed back from SARS), is referred to as, 
+- VAT output
+- VAT-exempt items
+- VAT input
+- Zero-rated items
+C
+VAT collected by the business on the sale of all goods and services (which needs to be paid over to SARS), is referred to as, 
+- VAT-exempt items
+- VAT output 
+- Zero-rated items
+- VAT input
+B
+Which of the following is NOT an example of zero-rated items?
+- Milk
+- Maize 
+- Rice
+- Interest rates
+D
+Which of the following is NOT an example of VAT-exempt items?
+- Childcare services
+- Cooking oil
+- Educational services
+- Interest rates 
+B
+What rate is VAT charged at? 
+- 14%
+- 10%
+- 15%
+- 14.5%
+C

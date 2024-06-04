@@ -1,0 +1,44 @@
+//---------------------------------------------------------------------------
+
+#include <sstream>
+#include <fstream>
+
+#pragma hdrstop
+
+#include "GlobalVariables.h"
+
+
+std::vector<std::string> loggedIn;
+
+std::vector<std::string> parseDelimitorSplitter(std::string line,char delimitorType){
+	std::vector<std::string> userdata;
+	std::stringstream sline(line);
+
+	while(sline.good()){
+		std::string stringbefordelim;
+		getline(sline,stringbefordelim,delimitorType);
+		userdata.push_back(stringbefordelim);
+	}
+
+   return userdata;
+}
+
+														//counts the number of lines in textfile in order to make sure username is unique
+int countLinesInFile(const std::string& filename) {
+	fstream file;
+	int lineCount = 0;
+	file.open(filename,ios::in);
+	if (file.is_open()) {
+	std::string line;
+	while (std::getline(file, line)) {
+		lineCount++;
+	}
+
+	file.close();
+	}
+
+	return lineCount;
+}
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)

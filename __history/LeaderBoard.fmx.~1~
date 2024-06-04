@@ -1,0 +1,201 @@
+object LeaderBoardForm: TLeaderBoardForm
+  Left = 0
+  Top = 0
+  Caption = 'LeaderBoardForm'
+  ClientHeight = 443
+  ClientWidth = 766
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object backgroundImage: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 766.000000000000000000
+    Size.Height = 443.000000000000000000
+    Size.PlatformDefault = False
+    object RoundRect2: TRoundRect
+      Align = Center
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Left = 30.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 766.000000000000000000
+      Size.Height = 361.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label11: TLabel
+        Align = Top
+        StyledSettings = [Family]
+        Size.Width = 766.000000000000000000
+        Size.Height = 38.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'Leader Board For Quizzes'
+        TabOrder = 0
+      end
+      object Circle: TCircle
+        Fill.Color = xFF1683C6
+        Position.X = 326.000000000000000000
+        Position.Y = 39.000000000000000000
+        Size.Width = 117.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object iconImage: TImage
+          MultiResBitmap.Height = 64
+          MultiResBitmap.Width = 64
+          MultiResBitmap = <
+            item
+            end>
+          Align = Center
+          Size.Width = 60.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Circle1: TCircle
+        Fill.Color = xFF1683C6
+        Position.X = 502.000000000000000000
+        Position.Y = 172.000000000000000000
+        Size.Width = 117.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object iconImage2: TImage
+          MultiResBitmap.Height = 64
+          MultiResBitmap.Width = 64
+          MultiResBitmap = <
+            item
+            end>
+          Align = Center
+          Size.Width = 60.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Circle2: TCircle
+        Fill.Color = xFF1683C6
+        Position.X = 144.000000000000000000
+        Position.Y = 172.000000000000000000
+        Size.Width = 117.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object iconImage1: TImage
+          MultiResBitmap.Height = 64
+          MultiResBitmap.Width = 64
+          MultiResBitmap = <
+            item
+            end>
+          Align = Center
+          Size.Width = 60.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Rectangle1: TRectangle
+        Opacity = 0.699999988079071000
+        Position.X = 289.000000000000000000
+        Position.Y = 137.000000000000000000
+        Size.Width = 197.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        object lblquiz1: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 197.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFFFEFDFD
+          TextSettings.HorzAlign = Center
+          Text = 'generate_quiz1_leader'
+          TabOrder = 0
+        end
+        object lblscore1: TLabel
+          Align = Center
+          StyledSettings = [Family, Size, Style]
+          Margins.Top = -10.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFFFEFDFD
+          TextSettings.HorzAlign = Center
+          Text = 'generate_quiz1_score'
+          TabOrder = 1
+        end
+      end
+      object Rectangle2: TRectangle
+        Opacity = 0.699999988079071000
+        Position.X = 105.000000000000000000
+        Position.Y = 270.000000000000000000
+        Size.Width = 197.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        object lblquiz2: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 197.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFFFEFDFD
+          TextSettings.HorzAlign = Center
+          Text = 'generate_quiz1_leader'
+          TabOrder = 0
+        end
+        object lblscore2: TLabel
+          Align = Center
+          StyledSettings = [Family, Size, Style]
+          Margins.Top = -10.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFFFEFDFD
+          TextSettings.HorzAlign = Center
+          Text = 'generate_quiz1_score'
+          TabOrder = 1
+        end
+      end
+      object Rectangle3: TRectangle
+        Position.X = 457.000000000000000000
+        Position.Y = 270.000000000000000000
+        Size.Width = 197.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        object lblquiz3: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 197.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFFFEFDFD
+          TextSettings.HorzAlign = Center
+          Text = 'generate_quiz1_leader'
+          TabOrder = 0
+        end
+        object lblscore3: TLabel
+          Align = Center
+          StyledSettings = [Family, Size, Style]
+          Opacity = 0.699999988079071000
+          Margins.Top = -10.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFFFEFDFD
+          TextSettings.HorzAlign = Center
+          Text = 'generate_quiz1_score'
+          TabOrder = 1
+        end
+      end
+    end
+  end
+end

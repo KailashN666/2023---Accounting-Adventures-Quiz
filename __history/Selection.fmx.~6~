@@ -1,0 +1,435 @@
+object SelectionForm: TSelectionForm
+  Left = 0
+  Top = 0
+  Caption = 'Selection'
+  ClientHeight = 649
+  ClientWidth = 959
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object backgroundImage: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 959.000000000000000000
+    Size.Height = 649.000000000000000000
+    Size.PlatformDefault = False
+    object btnquiz1: TRoundRect
+      Anchors = [akLeft, akRight]
+      Fill.Color = xFF1683C6
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 390.000000000000000000
+      Position.Y = 211.000000000000000000
+      Size.Width = 425.000000000000000000
+      Size.Height = 54.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = btnquiz1Click
+      object Label18: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 97.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'QUIZ ONE'
+        TabOrder = 0
+      end
+    end
+    object btnquiz2: TRoundRect
+      Anchors = [akLeft, akRight]
+      Fill.Color = xFF1683C6
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 390.000000000000000000
+      Position.Y = 282.000000000000000000
+      Size.Width = 425.000000000000000000
+      Size.Height = 54.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = btnquiz2Click
+      object Label9: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 97.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'QUIZ TWO'
+        TabOrder = 0
+      end
+    end
+    object Rectangle1: TRectangle
+      Align = MostTop
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Top = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 959.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+      object Label1: TLabel
+        Align = HorzCenter
+        StyledSettings = [Family, Style]
+        Position.X = 406.000000000000000000
+        Size.Width = 147.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Selection Page'
+        TabOrder = 0
+      end
+    end
+    object Rectangle3: TRectangle
+      Align = Left
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Bottom = 40.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 87.000000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 522.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+      object Label2: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Position.Y = 6.000000000000000000
+        Size.Width = 225.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'User Information'
+        TabOrder = 0
+      end
+      object Label3: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Name'
+        TabOrder = 6
+      end
+      object Label4: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 124.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Surname'
+        TabOrder = 4
+      end
+      object Label5: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 356.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Quiz Score 2'
+        TabOrder = 3
+      end
+      object Label6: TLabel
+        Align = Horizontal
+        StyledSettings = [Family]
+        Position.Y = 231.000000000000000000
+        Size.Width = 225.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {04040000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'MY QUIZ SCORES'
+        TabOrder = 5
+      end
+      object Label7: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 280.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Quiz Score 1'
+        TabOrder = 2
+      end
+      object Label8: TLabel
+        Align = Horizontal
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 428.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Quiz Score 3'
+        TabOrder = 1
+      end
+      object Line1: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 74.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtname: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 15
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Enabled = False
+          Size.Width = 185.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Enter Name'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Line2: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 150.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtsurname: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          MaxLength = 15
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          Enabled = False
+          Size.Width = 185.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Enter Surname'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Line4: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 301.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtscore1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 13
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Enabled = False
+          Margins.Right = 30.000000000000000000
+          Size.Width = 155.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = '0'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Line5: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 373.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtscore2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 13
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Enabled = False
+          Margins.Right = 30.000000000000000000
+          Size.Width = 155.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = '0'
+          StyledSettings = [Family, Style]
+        end
+      end
+      object Line6: TLine
+        Align = Horizontal
+        LineType = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 453.000000000000000000
+        Size.Width = 185.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object edtscore3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 13
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Enabled = False
+          Margins.Right = 30.000000000000000000
+          Size.Width = 155.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = '0'
+          StyledSettings = [Family, Style]
+        end
+      end
+    end
+    object RoundRect1: TRoundRect
+      Align = Right
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Margins.Left = 30.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Margins.Bottom = 500.000000000000000000
+      Position.X = 275.000000000000000000
+      Position.Y = 87.000000000000000000
+      Size.Width = 654.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object lblusername: TLabel
+        Align = Center
+        StyledSettings = [Family]
+        Size.Width = 161.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'generate_username'
+        TabOrder = 0
+      end
+    end
+    object btnquiz3: TRoundRect
+      Anchors = [akLeft, akRight]
+      Fill.Color = xFF1683C6
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 390.000000000000000000
+      Position.Y = 354.000000000000000000
+      Size.Width = 425.000000000000000000
+      Size.Height = 54.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label10: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 97.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'QUIZ THREE'
+        TabOrder = 0
+      end
+    end
+    object btnLeaderBoard: TRoundRect
+      Anchors = [akLeft, akRight]
+      Fill.Color = xFF1683C6
+      Margins.Left = 30.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 390.000000000000000000
+      Position.Y = 443.000000000000000000
+      Size.Width = 425.000000000000000000
+      Size.Height = 54.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = btnLeaderBoardClick
+      object Label11: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 97.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = xFFFEFDFD
+        TextSettings.HorzAlign = Center
+        Text = 'LEADER BOARD'
+        TabOrder = 0
+      end
+    end
+  end
+end

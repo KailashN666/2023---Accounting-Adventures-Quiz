@@ -1,0 +1,139 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = Single
+  Caption = 'Main'
+  ClientHeight = 427
+  ClientWidth = 640
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object backgroundImage: TImage
+    MultiResBitmap.Height = 3875
+    MultiResBitmap.Width = 5812
+    MultiResBitmap.LoadSize = 2
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 427.000000000000000000
+    Size.PlatformDefault = False
+    object lblexit: TLabel
+      StyledSettings = [Family]
+      Position.X = 49.000000000000000000
+      Position.Y = 354.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Exit...'
+      TabOrder = 0
+    end
+    object btnexit: TButton
+      Opacity = 0.000000000000000000
+      Position.X = 30.000000000000000000
+      Position.Y = 368.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = 'Exit...'
+      OnClick = btnexitClick
+    end
+    object Rectangle1: TRectangle
+      Align = Top
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Size.Width = 640.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 20.000000000000000000
+      YRadius = 20.000000000000000000
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Position.X = 103.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 433.000000000000000000
+      Size.Height = 217.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 30.000000000000000000
+      YRadius = 30.000000000000000000
+    end
+    object Label1: TLabel
+      StyledSettings = [Family]
+      Position.X = 191.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {04070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Accounting Adventures'
+      TabOrder = 6
+    end
+    object Label2: TLabel
+      StyledSettings = [Family]
+      Position.X = 151.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 346.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000200000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Welcome to Accounting Adventures.'
+      TabOrder = 2
+    end
+    object Label3: TLabel
+      StyledSettings = [Family]
+      Position.X = 156.000000000000000000
+      Position.Y = 145.000000000000000000
+      Size.Width = 321.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000200000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Would you like to Login or Register'
+      TabOrder = 1
+    end
+    object rbLogin: TRadioButton
+      StyledSettings = [Family, Style]
+      Position.X = 148.000000000000000000
+      Position.Y = 219.000000000000000000
+      Size.Width = 79.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'Login'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnChange = rbLoginChange
+    end
+    object rbRegistration: TRadioButton
+      StyledSettings = [Family, Style]
+      Position.X = 386.000000000000000000
+      Position.Y = 219.000000000000000000
+      Size.Width = 102.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Register'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnChange = rbRegistrationChange
+    end
+  end
+end

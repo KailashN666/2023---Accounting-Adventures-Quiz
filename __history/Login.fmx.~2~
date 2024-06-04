@@ -1,0 +1,185 @@
+object LoginForm: TLoginForm
+  Left = 0
+  Top = 0
+  Caption = 'Login'
+  ClientHeight = 427
+  ClientWidth = 784
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object backgroundImage: TImage
+    MultiResBitmap.Height = 2728
+    MultiResBitmap.Width = 5000
+    MultiResBitmap.LoadSize = 2
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 784.000000000000000000
+    Size.Height = 427.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle2: TRectangle
+      Align = Center
+      Fill.Kind = None
+      Size.Width = 297.000000000000000000
+      Size.Height = 395.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Rectangle1: TRectangle
+        Align = Center
+        Fill.Color = claBlack
+        Opacity = 0.600000023841857900
+        Size.Width = 217.000000000000000000
+        Size.Height = 345.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 20.000000000000000000
+        YRadius = 20.000000000000000000
+        object Label1: TLabel
+          Align = Horizontal
+          StyledSettings = [Family, Style]
+          Position.Y = 63.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 25.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Login Here'
+          TabOrder = 0
+        end
+        object Label2: TLabel
+          Align = Horizontal
+          StyledSettings = [Family, Style]
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = claWhite
+          Text = 'Username'
+          TabOrder = 2
+        end
+        object Label3: TLabel
+          Align = Horizontal
+          StyledSettings = [Family, Style]
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 203.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = claWhite
+          Text = 'Password'
+          TabOrder = 1
+        end
+        object Line1: TLine
+          Align = Horizontal
+          LineType = Bottom
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 153.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claWhite
+          object edtusername: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 0
+            Text = 'Talia_0'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhite
+            Margins.Left = 10.000000000000000000
+            Size.Width = 167.000000000000000000
+            Size.Height = 39.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Enter Username'
+            StyledSettings = [Family, Style]
+          end
+        end
+        object Line2: TLine
+          Align = Horizontal
+          LineType = Bottom
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 229.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = claWhite
+          object edtpassword: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'transparentedit'
+            TabOrder = 0
+            Password = True
+            Text = '7iay^987'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhite
+            Margins.Left = 10.000000000000000000
+            Size.Width = 167.000000000000000000
+            Size.Height = 39.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Enter Password'
+            StyledSettings = [Family, Style]
+          end
+        end
+        object RoundRect1: TRoundRect
+          Align = Horizontal
+          Fill.Color = xFF1683C6
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 295.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          OnClick = RoundRect1Click
+          object Label4: TLabel
+            Align = Client
+            StyledSettings = [Family, Size, Style]
+            Size.Width = 177.000000000000000000
+            Size.Height = 34.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = xFFFEFDFD
+            TextSettings.HorzAlign = Center
+            Text = 'LOGIN'
+            TabOrder = 0
+          end
+        end
+      end
+      object Circle: TCircle
+        Align = Horizontal
+        Fill.Color = xFF1683C6
+        Size.Width = 297.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object iconImage: TImage
+          MultiResBitmap.Height = 64
+          MultiResBitmap.Width = 64
+          MultiResBitmap = <
+            item
+            end>
+          Align = Center
+          Size.Width = 60.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+end

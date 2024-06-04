@@ -1,0 +1,18 @@
+inherited SelectionForm_Windows: TSelectionForm_Windows
+  DesignerMasterStyle = 0
+  inherited backgroundImage: TImage
+    inherited btnquiz1: TRoundRect
+      OnClick = nil
+    end
+    inherited Rectangle3: TRectangle
+      inherited Label6: TLabel
+        TextSettings.Font.StyleExt = {04040000000000000004000000}
+      end
+    end
+    inherited RoundRect1: TRoundRect
+      inherited lblusername: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end
